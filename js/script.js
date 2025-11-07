@@ -1,10 +1,10 @@
 // if else statement  
 // let age = 20;
 // if (age >= 21) {
-//   console.log("Tumi biye koro");
+//   console.log("You Can Marry");
 // }
 // else {
-//   console.log("Tomar biyer boyos hoy nai");
+//   console.log("You Are not able to get marry");
 // }
 
 // Metrimonial Site (Nested If else)
