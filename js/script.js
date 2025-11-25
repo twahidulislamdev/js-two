@@ -108,7 +108,7 @@
 // }
 
 // Reauslt sheet (else if Statement)
-let marks = 26;
+let marks = 86;
 if (marks < 0 || marks > 100 ) {
   console.log("Invalid Value Entry");
   
