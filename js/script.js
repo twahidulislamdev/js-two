@@ -1,4 +1,4 @@
-// if else statement  
+// if else statement
 // let age = 20;
 // if (age >= 21) {
 //   console.log("You Can Marry");
@@ -48,18 +48,18 @@
 //     }
 //     else{
 //       console.log("You Did Some Thing wrong!!!");
-      
+
 //     }
 //   }
 //   else{
 //     console.log("You Did Some Thing wrong!!!");
-    
+
 //   }
 // }
 // else{
 //   console.log("Email Did not match in our record");
 //   // console.log("You Did Some Thing wrong!!!");
-  
+
 // }
 
 // let gender = "Female"
@@ -76,7 +76,7 @@
 // }
 // else{
 //   console.log("You did some thing Wrong. Fill the correct information.");
-  
+
 // }
 
 // let gender = "Male"
@@ -84,54 +84,45 @@
 // let salary = 70000;
 // if (gender == "Male") {
 //   console.log("Gender Matched");
-  
+
 // }
 // else{
 //   console.log("You did some thing Wrong. Fill the correct information.");
-  
+
 // }
 // if (age >= 21 && age <= 30) {
 //   console.log("Age Matched");
-  
+
 // }
 // else{
 //   console.log("You did some thing Wrong. Fill the correct information.");
-  
+
 // }
 // if (salary >=50000) {
 //   console.log("Salary Matched");
-  
+
 // }
 // else{
 //   console.log("You did some thing Wrong. Fill the correct information.");
-  
+
 // }
 
 // Reauslt sheet (else if Statement)
-let marks = 86;
-if (marks < 0 || marks > 100 ) {
+let marks = 85;
+if (marks < 0 || marks > 100) {
   console.log("Invalid Value Entry");
-  
-}
-else if (marks >= 33 && marks < 40) {
+} else if (marks >= 33 && marks < 40) {
   console.log("You Got D");
-}
-else if (marks >= 40 && marks <50) {
-  console.log("You Got C")
-}
-else if (marks >= 50 && marks <60) {
-  console.log("You Got B")
-}
-else if (marks >= 60 && marks <70) {
-  console.log("You Got A-")
-}
-else if (marks >= 70 && marks <80) {
-  console.log("You Got A")
-}
-else if (marks >= 80 && marks <=100) {
-  console.log("You Got A+")
-}
-else{
+} else if (marks >= 40 && marks < 50) {
+  console.log("You Got C");
+} else if (marks >= 50 && marks < 60) {
+  console.log("You Got B");
+} else if (marks >= 60 && marks < 70) {
+  console.log("You Got A-");
+} else if (marks >= 70 && marks < 80) {
+  console.log("You Got A");
+} else if (marks >= 80 && marks <= 100) {
+  console.log("You Got A+");
+} else {
   console.log("You are Failled");
-  
 }
