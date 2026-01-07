@@ -25,3 +25,10 @@ if (gender == "Male") {
 } else {
   console.log("We are looking for 'Female' candidate");
 }
+
+
+// Login Form (Nested If else)
+let email = "twahid746@gmail.com";
+let password = 27985;
+let name = "Twahidul Islam";
+let birth = "7 july 2005"
