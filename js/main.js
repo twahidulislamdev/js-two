@@ -31,3 +31,22 @@ let email = "twahid746@gmail.com";
 let password = 27985;
 let name = "Twahidul Islam";
 let birth = "7 july 2005";
+
+if (email == "twahid746@gmail.com") {
+  if (password == 27985) {
+    if (name == "Twahidul Islam") {
+      if (birth == "7 july 2003") {
+        console.log("Login SuccessFull");
+      } else {
+        console.log("You Did Some Thing wrong!!! login Failled!!!");
+      }
+    } else {
+      console.log("You Did Some Thing wrong!!!");
+    }
+  } else {
+    console.log("You Did Some Thing wrong!!!");
+  }
+} else {
+  console.log("Email Did not match in our record");
+  // console.log("You Did Some Thing wrong!!!");
+}
