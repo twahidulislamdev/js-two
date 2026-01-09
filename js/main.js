@@ -63,3 +63,22 @@ if (mygender == "Female") {
 } else {
   console.log("You did some thing Wrong. Fill the correct information.");
 }
+
+let marks = 25;
+if (marks < 0 || marks > 100) {
+  console.log("Invalid Value Entry");
+} else if (marks >= 33 && marks < 40) {
+  console.log("You Got D");
+} else if (marks >= 40 && marks < 50) {
+  console.log("You Got C");
+} else if (marks >= 50 && marks < 60) {
+  console.log("You Got B");
+} else if (marks >= 60 && marks < 70) {
+  console.log("You Got A-");
+} else if (marks >= 70 && marks < 80) {
+  console.log("You Got A");
+} else if (marks >= 80 && marks <= 100) {
+  console.log("You Got A+");
+} else {
+  console.log("You are Failled");
+}
