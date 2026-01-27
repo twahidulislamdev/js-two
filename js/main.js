@@ -58,7 +58,7 @@ if (mygender == "Female") {
   console.log("Gender Matched");
 } else if (myage >= 21 && myage <= 30) {
   console.log("Age Matched");
-} else if (firstsalary >= 50000) {
+} else if (firstsalary >= 500000) {
   console.log("Salary Matched");
 } else {
   console.log("You did some thing Wrong. Fill the correct information.");
