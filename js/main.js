@@ -13,7 +13,7 @@ let area = "Mohakhali";
 let salary = 155000;
 
 if (gender == "Male") {
-  if (age <= 30 && age >= 21) {
+  if (age <= 25 && age >= 21) {
     if (salary >= 100000 || area == "Dhaka") {
       console.log("Yes!!!! Candidate Matched");
     } else {
@@ -28,14 +28,14 @@ if (gender == "Male") {
 
 // Login Form (Nested If else)
 let email = "twahid746@gmail.com";
-let password = 27985;
+let password = 27642;
 let name = "Twahidul Islam";
 let birth = "7 july 2005";
 
 if (email == "twahid746@gmail.com") {
-  if (password == 27985) {
+  if (password == 27642) {
     if (name == "Twahidul Islam") {
-      if (birth == "7 july 2003") {
+      if (birth == "7 july 2005") {
         console.log("Login SuccessFull");
       } else {
         console.log("You Did Some Thing wrong!!! login Failled!!!");
@@ -53,7 +53,7 @@ if (email == "twahid746@gmail.com") {
 
 let mygender = "Female";
 let myage = 25;
-let firstsalary = 60000;
+let firstsalary = 600000;
 if (mygender == "Female") {
   console.log("Gender Matched");
 } else if (myage >= 21 && myage <= 30) {
@@ -82,3 +82,4 @@ if (marks < 0 || marks > 100) {
 } else {
   console.log("You are Failled");
 }
+
